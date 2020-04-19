@@ -23,7 +23,7 @@ final RegExp _passwordRegex = new RegExp(
 final RegExp _creditCardRegex = new RegExp(
     r"^(?:3[47]\d{2}([\- ]?)\d{6}\1\d{5}|(?:4\d{3}|5[1-5]\d{2}|6011)([\- ]?)\d{4}\2\d{4}\2\d{4})$");
 final RegExp _usernameRegex = new RegExp(
-    r"^[A-Za-z][A-Za-z0-9_-]{7,29}$");
+    r"^[A-Za-z][A-Za-z0-9_-]{3,29}$");
 
 class _Validator {
   const _Validator();
